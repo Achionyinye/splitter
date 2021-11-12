@@ -1,0 +1,124 @@
+
+
+#imageOne{
+    align-content: center;
+}
+.box{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    width: 40%;
+    height: 40%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 20px; 
+    
+}
+#buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+}
+small{
+    font-size: 20px;
+    color: hsl(184, 14%, 56%);
+
+}
+span{
+    font-size: 11px;
+    color:hsl(186, 14%, 43%);
+
+}
+h3{
+    color : whitesmoke;
+}
+input{
+    background-color: rgb(232, 244, 250);
+    border:none;
+    height:30px
+}
+#boxContainer2{
+    background-color: hsl(183, 100%, 15%);
+    width: 40%;
+    height: 40%;
+    padding: 5%;
+    border-radius: 20px; 
+}
+#reset{
+    padding: 5px;
+    width:100%;
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+}
+
+button{
+    background-color:hsl(183, 100%, 15%);
+    color:white;
+    border-radius: 5px;
+  }
+  
+  button:hover{
+    background-color:yellowgreen;
+  }
+  
+  button:focus{
+    background-color:hsl(172, 67%, 45%);
+  }
+
+  @media only screen and (max-width: 
+  375px) {
+    
+    .box{
+        display: grid;
+        width: 370px;
+        margin-left: -13px;
+        margin-top: 40px;
+     height: 830px;  
+    }
+    
+     #boxContainer1{
+     width: 100px;
+     height: 150px;
+     background-color: #fff;  
+     padding-left: 60px;
+     padding-top: 20%;
+     padding-bottom: 60px;
+    }
+    #buttons{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 40px;
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+       
+    }
+    button{
+       height: 30px;
+       width: 100px;
+    }
+    #boxContainer2{
+        width: 340px;
+        height: 250px;
+        background-color: hsl(183, 100%, 15%); 
+        margin-top: 40%;    
+       
+    }
+    input{
+        width:260%;
+    } 
+    
+    #reset{
+        margin-top: 17%;
+        padding: 15px;
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color : whitesmoke;
+        font-size: 20px;
+    }
+  }
